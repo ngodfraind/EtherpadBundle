@@ -17,7 +17,7 @@ use Claroline\CoreBundle\Entity\Resource\AbstractResource;
 
 /**
  * @ORM\Table(name="claro__etherpaddoc")
- * @ORM\Entity()
+ * @ORM\Entity(repositoryClass="Claroline\EtherpadBundle\Repository\EtherpadDocRepository")
  */
 class EtherpadDoc extends AbstractResource
 {
