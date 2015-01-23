@@ -1,0 +1,7 @@
+plugin:
+    has_options: false
+    resources:
+        -
+            class: Claroline\EtherpadBundle\Entity\EtherpadDoc
+            name: claroline_etherpaddoc
+            is_exportable: false
